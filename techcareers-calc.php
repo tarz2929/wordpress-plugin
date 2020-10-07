@@ -12,7 +12,7 @@
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  */
 
- add_shortcode();
+ add_shortcode( 'techcareers-calc', 'techCareersCalculator' );
 
  function techCareersCalculator ()
 {
